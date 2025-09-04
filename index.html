@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 1rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 8px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      nav {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Seu Nome</h1>
+    <p>Desenvolvedor Web | Criador de Projetos | Freelancer</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Olá! Meu nome é [Seu Nome], sou apaixonado por tecnologia e desenvolvimento web. Tenho experiência com HTML, CSS, JavaScript, e estou sempre aprendendo novas ferramentas e linguagens. Este é meu portfólio onde compartilho meus projetos e ideias.
+    </p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto. Pode ser um site, app ou sistema que você criou.</p>
+        <a href="#" target="_blank">Ver Projeto</a>
+      </div>
+      <div class="project-card">
+        <h3>Projeto 2</h3>
+        <p>Outro projeto interessante que você deseja mostrar.</p>
+        <a href="#" target="_blank">Ver Projeto</a>
+      </div>
+      <div class="project-card">
+        <h3>Projeto 3</h3>
+        <p>Mais um exemplo de projeto com link e descrição.</p>
+        <a href="#" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Você pode me encontrar nas redes sociais ou enviar um e-mail:</p>
+    <ul>
+      <li>Email: seuemail@exemplo.com</li>
+      <li>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank">linkedin.com/in/seuusuario</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
